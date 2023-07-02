@@ -20,7 +20,7 @@ const Message: React.FC<MessageProps> = ({ ai, msg }: MessageProps) => {
   useEffect(() => {
     const getAIResponse = async () => {
       axios
-        .post("http://localhost:5000", {
+        .post("https://quantum-server.onrender.com", {
           prompt: msg,
         })
         .then((res) => {
