@@ -23,7 +23,7 @@ export default function Home() {
       >
         <div className={`w-full bg-[#343541]`}>
           <div className={`w-full bg-[#40414F] `}>
-            <div className="md:w-2/3 w-5/6 mx-auto p-4 flex gap-4">
+            <div className="md:w-2/3 w-5/6 mx-auto py-4 flex gap-4">
               <div className="p-2 w-8 h-8 bg-green-600 rounded-sm">
                 <Image src={bot} alt="bot" />
               </div>
